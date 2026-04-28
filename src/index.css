@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 @import 'tailwindcss';
 
-@font-face {
+/* @font-face {
   font-family: 'Modern Negra';
   src: url('/fonts/Modern Negra Demo.ttf') format('truetype');
-}
+} */
 
 @theme {
   --color-yellow: #e7d393;
   --color-white-100: #efefef;
   --font-sans: 'Mona Sans', sans-serif;
-  --font-modern-negra: 'Modern Negra', sans-serif;
+  --font-modern-negra: 'DM Serif Display', serif;
   --font-serif: 'DM Serif Text', serif;
 }
 
@@ -109,8 +109,9 @@ body {
       .content {
         @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
-        p:nth-of-type(2) {
-          @apply font-modern-negra text-6xl text-yellow max-w-xl;
+        p:nth-of-type(2),
+        p:nth-of-type(3) {
+          @apply font-modern-negra text-6xl text-left text-yellow max-w-xl;
         }
 
         p:last-of-type {
