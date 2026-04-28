@@ -109,9 +109,8 @@ body {
       .content {
         @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
 
-        p:nth-of-type(2),
-        p:nth-of-type(3) {
-          @apply font-modern-negra text-6xl text-left text-yellow max-w-xl;
+        p:nth-of-type(2) {
+          @apply font-modern-negra text-6xl text-yellow max-w-xl;
         }
 
         p:last-of-type {
