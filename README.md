@@ -1,3 +1,31 @@
+# Mojito Website (GSAP + React + Tailwind)
+
+## Overview
+
+This project is a modern, animated Mojito-themed website built with React and Tailwind CSS, following a tutorial from JS Mastery. The focus is on component-based architecture and smooth animations using GSAP. Tutorial followed from JS Mastery YouTube channel.
+
+## Features
+
+- Animated Hero Section using GSAP
+- Scroll-based animations
+- Interactive Cocktails Section
+- Component-based structure (React)
+- Utility-first styling with Tailwind CSS
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- GSAP (GreenSock Animation Platform)
+- Vite (or Create React App, depending on setup)
+
+## GSAP Usage
+
+- `gsap.timeline()` for sequencing animations
+- `gsap.from()` and `gsap.to()` for transitions
+- `ScrollTrigger` for scroll-based animations
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
