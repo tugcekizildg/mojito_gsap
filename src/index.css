@@ -2,11 +2,6 @@
 
 @import 'tailwindcss';
 
-/* @font-face {
-  font-family: 'Modern Negra';
-  src: url('/fonts/Modern Negra Demo.ttf') format('truetype');
-} */
-
 @theme {
   --color-yellow: #e7d393;
   --color-white-100: #efefef;
@@ -286,7 +281,7 @@ body {
     }
 
     .cocktail-tabs {
-      @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
+      @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-8 sm:mb-32 mb-20 relative z-10 md:max-w-7xl md:mx-auto;
 
       button {
         @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-yellow hover:border-yellow border-b-1 transition-colors font-modern-negra;
